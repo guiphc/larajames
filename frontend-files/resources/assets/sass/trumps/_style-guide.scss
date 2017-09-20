@@ -1,0 +1,120 @@
+.sec-guide {
+	padding-bottom: 100px;
+}
+
+.guide-row {
+	lost-utility: clearfix;
+	margin-bottom: 2rem;
+}
+
+.guide-col {
+	@media (min-width: $screen-md) { 
+		lost-column: 1/2;
+	}
+}
+
+.guide-col-right {
+	@media (min-width: $screen-md) { 
+		lost-column: 2/3;
+	}
+}
+
+.guide-col-left {
+	@media (min-width: $screen-md) { 
+		lost-column: 2/6;
+	}
+}
+
+.guide-box  {
+	margin-bottom: 5rem;
+	.guide-box__title {
+		padding-bottom: .5rem;
+		border-bottom: 1px solid $clr-txt;
+		margin-bottom: 2rem;
+		color: $clr-txt;
+	}
+	.guide-box__text {
+		padding: 1rem 0;
+	}
+}
+
+.guide-header {
+	background-color: $clr-1;
+	padding: 1.5rem;
+	margin-bottom: 5rem;
+	text-align: center;
+	.guide-header__title {
+		color: #fff;
+		margin-bottom: 0;
+	}
+}
+
+.guide-colors {
+	.guide-colors-list__item {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 10px;
+		border-radius: 50%;
+		width: 70px;
+		height: 70px;
+		text-align: center;
+		line-height: 70px;
+
+		&.-clr-1 {
+			background-color: $clr-1;
+			color: #fff;
+		}
+		&.-clr-2 {
+			background-color: $clr-2;
+			color: #fff;
+		}
+		&.-clr-3 {
+			background-color: $clr-3;
+			color: #fff;
+		}
+	}
+}
+
+.guide-icons {
+	> .guide-icons__item {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 5px;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+	}
+}
+
+.guide-button {
+	.btn {
+		margin-bottom: .5rem;
+	}
+}
+
+.guide-menu {
+	margin-bottom: 2rem;
+	.guide-menu__title {
+	    padding-bottom: .5rem;
+	    border-bottom: 1px solid $clr-txt;
+	    margin-bottom: 1rem;
+	    color: $clr-txt;
+	    font-size: 2rem;
+	}
+	.guide-menu__item {
+		display: block;
+		padding: .80rem 1rem;
+		text-decoration: none;
+	}
+}
+
+.fancybox-example {
+	lost-utility: clearfix;
+	.fancybox-example__item {
+		lost-column: 1/3;
+		.image {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}

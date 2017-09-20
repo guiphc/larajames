@@ -1,0 +1,24 @@
+{
+  "name": "larajames",
+  "version": "0.1.3",
+  "description": "Custom frontend presets to laravel",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "svg-spritemap-webpack-plugin": "^1.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guiphc/larajames"
+  },
+  "author": "Guilherme L.A.G",
+  "license": "ISC",
+  "homepage": "",
+  "preferGlobal": true,
+  "bin": {
+    "larajames": "index.js"
+  }
+}

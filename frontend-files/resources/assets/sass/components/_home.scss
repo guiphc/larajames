@@ -1,0 +1,19 @@
+.def-master {
+	height: 100vh;
+}
+
+.intro {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	.link {
+		padding: 0 10px;
+	}
+	.title {
+		font-size: 6rem;
+		color: $clr-1;
+	}
+}

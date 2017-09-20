@@ -1,0 +1,86 @@
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+$btn-default-bg: #00afd4;
+$btn-default-color: #fff;
+$btn-primary-bg: #777;
+$btn-primary-color: #fff;
+$btn-radius-size: 0;
+$btn-font-family: $font-base;
+$btn-font-weight: 600;
+$btn-border-color: #000;
+$btn-border-color-hover: #777;
+
+a.btn, button.btn, .btn {
+	appearance: none;
+	display: inline-block;
+	padding: 0 3rem;
+	margin: 0;
+	font-family: $btn-font-family;
+	font-size: 1.2rem;
+	text-align: center;
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-weight: $btn-font-weight;
+	border: none;
+	background-color: $btn-default-bg;
+	border-radius: $btn-radius-size;
+	line-height: 1.25;
+	cursor: pointer;
+	transition: all .3s ease;
+	border: 1px solid $btn-default-bg;
+	height: 3.8rem;
+	line-height: 3.8rem;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&.-noPd {
+		padding: 0;
+	}
+
+	&.-block {
+		display: block;
+	}
+
+	&.-center {
+		display: table;
+		margin: 0 auto;
+	}
+
+	&.-default {
+		color: #fff;
+
+		&:hover {
+			background-color: darken( $btn-default-bg, 5% );
+		}
+	}
+
+	&.-primary {
+		background-color: $btn-primary-bg;
+		color: $btn-default-color;
+		border-color: $btn-primary-bg;
+
+		&:hover {
+			background-color: darken( $btn-primary-bg, 5% );
+		}
+	}
+
+	&.-border {
+		background-color: transparent;
+		color: $btn-border-color;
+		border-color: $btn-border-color;
+
+		&:hover {
+			border-color: $btn-border-color-hover;
+			color: $btn-border-color-hover;
+		}
+	}
+
+	&[disabled] {
+		cursor: default;
+		opacity: .5;
+	}
+}

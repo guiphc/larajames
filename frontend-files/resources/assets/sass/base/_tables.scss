@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+table {
+	width: 100%;
+	max-width: 100%;
+	background-color: transparent;
+}
+
+th {
+	text-align: left;
+}
+
+table {
+	th,td {
+		padding: 8px;
+		line-height: 120%;
+		vertical-align: top;
+		border-top: 1px solid #ddd;
+	}
+	th {
+		border-top: 0;
+		font-weight: bold;
+	}
+}

@@ -1,0 +1,23 @@
+.ham {
+	background-color: #fff;
+	border: 0;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 0;
+	top: 15px;
+	@media (min-width: $screen-md) { 
+		display: none;
+	}
+	.ham__item {
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: $clr-1;
+		margin-bottom: .3rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

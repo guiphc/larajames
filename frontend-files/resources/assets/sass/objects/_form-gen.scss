@@ -1,0 +1,78 @@
+$input-bg-color: #fff;
+$input-bd-color: #000;
+$input-bd-color-focus: #777;
+$input-bd-color-error: red;
+
+
+.form-gen {
+
+	position: relative;
+	color: #4A4A4A;
+	font-size: 1.4rem;
+
+	.form-control {
+		appearance: none;
+		padding: .6rem 1.0rem;
+		background-color: $input-bg-color;
+		width: 100%;
+		border: 1px solid $input-bd-color;
+		color: #4A4A4A;
+		font-size: 1.4rem;
+		vertical-align: middle;
+		font-family: $font-base;
+		border-radius: 0;
+		display: block;
+		margin-bottom: .5rem;
+		height: 3.8rem;
+
+		&.error {
+			border-color: $input-bd-color-error;
+		}
+
+		&:focus {
+			border-color: $input-bd-color-focus;
+		}
+	}
+
+	select.form-control {
+		background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="#00000" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>') center right no-repeat;
+		padding-right: 3.0rem;
+	}
+
+	textarea.form-control {
+		min-height: 7rem;
+		resize: vertical;
+	}
+
+	.form-group {
+		margin-bottom: 1.6rem;
+	}
+
+	// .ent-select {
+	// 	@include c7-ent-select(#000, #000);
+
+	// 	&.-erro {
+	// 		border-color: $input-bd-color-error;
+	// 	}
+	// }
+
+	.ent-input {
+		position: relative;
+
+		label.error {
+			color: $input-bd-color-error;
+			margin-bottom: 0;
+			font-size: 1.3rem;
+			display: block;
+		}
+	}
+
+	.ent-input-check {
+		.label {
+			padding-left: 5px;
+			cursor: pointer;
+		}
+	}
+
+} // .form-gen
+

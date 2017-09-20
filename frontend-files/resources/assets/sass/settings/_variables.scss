@@ -1,0 +1,34 @@
+$font-base: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+// $font-dest: 'PT Sans', sans-serif;
+$font-size-base: 16px;
+
+$clr-1: #ff881f;
+$clr-2: #777; 
+$clr-3: #FFF; 
+
+$clr-txt: #18292c;
+$clr-bd: #F6F6F6;
+
+// @lost gutter 60px;
+// @lost flexbox flex;
+// @lost cycle none;
+// @lost clearing left;
+// @lost rounder 100;
+// @lost --beta-direction rtl;
+
+//Responsive Sizes
+
+$screen-xs: 520px;  // Extra small screen / phone
+$screen-sm: 768px;  // Small screen / tablet
+$screen-md: 992px;  // Medium screen / desktop
+$screen-lg: 1200px; // Large screen / wide desktop
+$screen-xlg: 1400px; // Extra Large screen / wide desktop
+$screen-xxlg: 1600px; // Extra Large screen / wide desktop
+
+// @media (min-width: 520px) { }
+// @media (min-width: 768px) { }
+// @media (min-width: 992px) { }
+// @media (min-width: 1200px) { }
+// @media (min-width: 1400px) { }
+// @media (min-width: 1600px) { }
+// @media (min-width: 521px) and (max-width: 767px) { ... }
